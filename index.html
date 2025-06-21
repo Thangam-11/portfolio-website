@@ -6,25 +6,32 @@
   <title>Thangarasu | AI/ML Portfolio</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
+
 <body>
 
-  <!-- Header -->
-  <header>
-    <nav class="container">
-      <a href="#" class="logo">Thangarasu</a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <!-- Hero Header Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>THANGARASU M</h1>
+      <p class="subtitle">AI & ML Engineer | Data Scientist | Data Analyst</p>
+    </div>
   </header>
+
+  <!-- Navigation -->
+  <nav class="container">
+    <a href="#" class="logo">Thangarasu</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
   <!-- Hero Section -->
   <section class="hero section-padding">
-    <img src="your-profile.png" alt="Profile" class="profile-pic"/>
+    <img src="assets/profile.png" alt="Profile" class="profile-pic"/>
     <h1>Hi, I'm <span class="highlight">Thangarasu</span></h1>
     <p class="hero tagline">Passionate AI/ML Engineer focused on building intelligent, ethical, and scalable solutions using Python, Deep Learning, NLP, and LLMs.</p>
     <div class="social-links">
@@ -96,94 +103,93 @@
   </section>
 
   <!-- Projects -->
-
   <section id="projects" class="section-padding">
-  <h2>Projects</h2>
-  <div class="projects-grid container">
+    <h2>Projects</h2>
+    <div class="projects-grid container">
 
-    <!-- Project 1 -->
-    <div class="project-card">
-      <h3>🤖 Customer Support System</h3>
-      <p>Developed a multi-functional AI chatbot using LangChain, OpenAI, and Hugging Face. Integrated with MySQL for data storage and Streamlit for UI.</p>
-      <p class="tech-stack">LangChain · OpenAI · Hugging Face · FastAPI · Streamlit</p>
-      <div class="project-links">
-        <a class="btn" href="https://github.com/Thangam-11/customer_support_system" target="_blank">GitHub</a>
+      <div class="project-card">
+        <img src="assets/chatbot_image.jpg" alt="Customer Support System Screenshot" class="project-image">
+        <h3>🤖 Customer Support System</h3>
+        <p>Developed a multi-functional AI chatbot using LangChain, OpenAI, and Hugging Face...</p>
+        <p class="tech-stack">LangChain · OpenAI · Hugging Face · FastAPI · Streamlit</p>
+        <div class="project-links">
+          <a class="btn" href="https://github.com/Thangam-11/customer_support_system" target="_blank">GitHub</a>
+        </div>
       </div>
-    </div>
 
-    <!-- Project 2 -->
-    <div class="project-card">
-      <h3>🤖 Role Based RagBot</h3>
-      <p>Developed a multi-functional AI chatbot using LangChain, Gemini LLM and embedding models. Integrated with MySQL and Streamlit for UI.</p>
-      <p class="tech-stack">LangChain · Gemini · FastAPI · Streamlit</p>
-      <div class="project-links">
-        <a class="btn" href="https://github.com/Thangam-11/Gen_ai_resume_challange_codebasics" target="_blank">GitHub</a>
+      <div class="project-card">
+        <img src="assets/RPC_01_Thumbnail.jpg" alt="Role Based RagBot Screenshot" class="project-image">
+        <h3>🤖 Role Based RagBot</h3>
+        <p>Developed a chatbot using LangChain, Gemini LLM & embedding models, MySQL, and Streamlit.</p>
+        <p class="tech-stack">LangChain · Gemini · FastAPI · Streamlit</p>
+        <div class="project-links">
+          <a class="btn" href="https://github.com/Thangam-11/Gen_ai_resume_challange_codebasics" target="_blank">GitHub</a>
+        </div>
       </div>
-    </div>
 
-    <!-- Project 3 -->
-    <div class="project-card">
-      <h3>🤖 Multiagent Trading Bot</h3>
-      <p>Developed a multi-agent AI chatbot using LangChain, OpenAI, and Hugging Face. Integrated with MySQL and Streamlit.</p>
-      <p class="tech-stack">LangChain · OpenAI · Hugging Face · MySQL · Streamlit</p>
-      <div class="project-links">
-        <a class="btn" href="https://github.com/Thangam-11/Multiagent_trading_bot" target="_blank">GitHub</a>
+      <div class="project-card">
+        <img src="assets/ai_trading_bots.jpeg" alt="Multiagent Trading Bot Screenshot" class="project-image">
+        <h3>🤖 Multiagent Trading Bot</h3>
+        <p>Multi-agent chatbot using LangChain, OpenAI, Hugging Face, MySQL, and Streamlit.</p>
+        <p class="tech-stack">LangChain · OpenAI · Hugging Face · MySQL · Streamlit</p>
+        <div class="project-links">
+          <a class="btn" href="https://github.com/Thangam-11/Multiagent_trading_bot" target="_blank">GitHub</a>
+        </div>
       </div>
-    </div>
 
-    <!-- Project 4 -->
-    <div class="project-card">
-      <h3>🤖 Doctor Appointment Agents</h3>
-      <p>Developed an AI assistant to manage doctor appointments using LangChain, LangGraph, and OpenAI. Integrated with MySQL and FastAPI.</p>
-      <p class="tech-stack">LangChain · LangGraph · OpenAI · Hugging Face · FastAPI · Streamlit</p>
-      <div class="project-links">
-        <a class="btn" href="https://github.com/Thangam-11/Doctor_appoinment_agents" target="_blank">GitHub</a>
+      <div class="project-card">
+        <img src="assets/AI-Agents-1.jpg" alt="Doctor Appointment Agents Screenshot" class="project-image">
+        <h3>🤖 Doctor Appointment Agents</h3>
+        <p>LangChain + LangGraph + OpenAI bot for medical scheduling. MySQL + FastAPI + Streamlit.</p>
+        <p class="tech-stack">LangChain · LangGraph · OpenAI · Hugging Face · FastAPI · Streamlit</p>
+        <div class="project-links">
+          <a class="btn" href="https://github.com/Thangam-11/Doctor_appoinment_agents" target="_blank">GitHub</a>
+        </div>
       </div>
-    </div>
 
-    <!-- Project 5 -->
-    <div class="project-card">
-      <h3>🚆 My Train Chatbot</h3>
-      <p>AI chatbot inspired by IRCTC Disha 2.0. Integrates LangChain, Whisper, and Gemini Pro to answer train-related queries via voice and text.</p>
-      <p class="tech-stack">LangChain · Whisper · Gemini Pro · MySQL · Streamlit</p>
-      <div class="project-links">
-        <a class="btn" href="https://github.com/Thangam-11/Rail_chatbot" target="_blank">GitHub</a>
-        <a class="btn" href="https://rail-chatbot.streamlit.app/" target="_blank">Live Demo</a>
+      <div class="project-card">
+        <img src="assets/train_chatbot.avif" alt="My Train Chatbot Screenshot" class="project-image">
+        <h3>🚆 My Train Chatbot</h3>
+        <p>IRCTC-style chatbot using LangChain, Whisper, Gemini Pro. Voice + text queries.</p>
+        <p class="tech-stack">LangChain · Whisper · Gemini Pro · MySQL · Streamlit</p>
+        <div class="project-links">
+          <a class="btn" href="https://github.com/Thangam-11/Rail_chatbot" target="_blank">GitHub</a>
+          <a class="btn" href="https://rail-chatbot.streamlit.app/" target="_blank">Live Demo</a>
+        </div>
       </div>
-    </div>
 
-    <!-- Project 6 -->
-    <div class="project-card">
-      <h3>🛻 CarDekho Price Prediction</h3>
-      <p>Built an ML model to predict used car prices using linear regression, boosting, and PCA techniques. Included preprocessing, SMOTE, and evaluation.</p>
-      <p class="tech-stack">Python · scikit-learn · Streamlit · EDA</p>
-      <div class="project-links">
-        <a class="btn" href="https://github.com/Thangam-11/Used-car-price-prediction" target="_blank">GitHub</a>
+      <div class="project-card">
+        <img src="assets/used_car_price.webp" alt="Used Car Price Prediction Screenshot" class="project-image">
+        <h3>🛻 CarDekho Price Prediction</h3>
+        <p>Predictive ML model with regression, SMOTE, PCA. Built with scikit-learn + Streamlit.</p>
+        <p class="tech-stack">Python · scikit-learn · Streamlit · EDA</p>
+        <div class="project-links">
+          <a class="btn" href="https://github.com/Thangam-11/Used-car-price-prediction" target="_blank">GitHub</a>
+        </div>
       </div>
-    </div>
 
-    <!-- Project 7 -->
-    <div class="project-card">
-      <h3>🏦 Financial Loan Risk Default Prediction</h3>
-      <p>Built a machine learning model to predict loan default risks. Applied preprocessing, PCA, SMOTE, and boosting models with evaluation.</p>
-      <p class="tech-stack">Python · scikit-learn · Streamlit · EDA</p>
-      <div class="project-links">
-        <a class="btn" href="https://github.com/Thangam-11/Loan_risk_deduction" target="_blank">GitHub</a>
+      <div class="project-card">
+        <img src="assets/loan_app.jpg" alt="Loan Risk Prediction Screenshot" class="project-image">
+        <h3>🏦 Financial Loan Risk Default Prediction</h3>
+        <p>ML app to detect loan defaults using PCA, SMOTE, boosting.</p>
+        <p class="tech-stack">Python · scikit-learn · Streamlit · EDA</p>
+        <div class="project-links">
+          <a class="btn" href="https://github.com/Thangam-11/Loan_risk_deduction" target="_blank">GitHub</a>
+        </div>
       </div>
-    </div>
 
-    <!-- Project 8 -->
-    <div class="project-card">
-      <h3>🏘️ Rental Property Prices Prediction</h3>
-      <p>Developed an ML model to predict rental property prices using classification and regression techniques with deployment-ready code.</p>
-      <p class="tech-stack">Python · scikit-learn · Streamlit · EDA</p>
-      <div class="project-links">
-        <a class="btn" href="https://github.com/Thangam-11/Rental-Property-price-" target="_blank">GitHub</a>
+      <div class="project-card">
+        <img src="assets/house_price.png" alt="Rental Property Prices Prediction Screenshot" class="project-image">
+        <h3>🏘️ Rental Property Prices Prediction</h3>
+        <p>Predictive housing model using regression & classification techniques with deployment.</p>
+        <p class="tech-stack">Python · scikit-learn · Streamlit · EDA</p>
+        <div class="project-links">
+          <a class="btn" href="https://github.com/Thangam-11/Rental-Property-price-" target="_blank">GitHub</a>
+        </div>
       </div>
-    </div>
 
-  </div>
-</section>
+    </div>
+  </section>
 
   <!-- Contact -->
   <section id="contact" class="section-padding bg-light">
@@ -192,13 +198,13 @@
     <form action="#" method="POST">
       <label for="name">Name</label>
       <input type="text" id="name" name="name" required />
-      
+
       <label for="email">Email</label>
       <input type="email" id="email" name="email" required />
-      
+
       <label for="message">Message</label>
       <textarea id="message" name="message" rows="5" required></textarea>
-      
+
       <button type="submit" class="btn btn-primary">Send</button>
     </form>
   </section>
@@ -215,5 +221,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-<!-- Add your JavaScript here if needed -->
- 
